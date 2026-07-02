@@ -1,0 +1,40 @@
+# Muhim: .env faylini hech qachon GitHub ga yuklamang!
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+
+# SQLite (lokal DB)
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Build
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Nested git repo
+javohirakaniboti/
