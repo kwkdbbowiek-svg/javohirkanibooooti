@@ -216,11 +216,6 @@ async def approve_purchase_cb(call: CallbackQuery, db_user: User, bot: Bot):
         else:
             link_text += "🔗 Kanal havolasi tez orada yuboriladi. Admin bilan bogʻlaning."
 
-        link_text += (
-            f"\n\n💬 Kurs bo'yicha qo'shimcha savollar bo'lsa kuratorga yozishingiz mumkin:\n"
-            f"Kurator: @A_Zakhidovna"
-        )
-
         try:
             await bot.send_message(user_id, link_text, parse_mode="HTML")
         except Exception as e:
